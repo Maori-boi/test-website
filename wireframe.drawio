@@ -676,11 +676,14 @@
                 <mxCell id="hRdIfceUbxGLB_Sh5Jxk-1" parent="hRdIfceUbxGLB_Sh5Jxk-0"/>
                 <mxCell id="lXLtCyMGLzzmLuXY_kcQ-0" value="SDA POV" style="swimlane;startSize=40;horizontal=1;containerType=tree;" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1">
                     <mxGeometry width="800" height="760" as="geometry">
-                        <mxRectangle x="300" y="80" width="80" height="40" as="alternateBounds"/>
+                        <mxRectangle width="80" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="jkSeIDveEC0GyRhlIzh9-6" value="&amp;lt;img&amp;gt;SDA symbol&amp;lt;/img&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="lXLtCyMGLzzmLuXY_kcQ-0" vertex="1">
-                    <mxGeometry x="310" y="580" width="150" height="20" as="geometry"/>
+                    <mxGeometry x="325" y="580" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="brY2NaWlUATStaJgxP2S-1" value="Information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lXLtCyMGLzzmLuXY_kcQ-0">
+                    <mxGeometry x="240" y="360" width="320" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="HxTyLEbp1rfLBriQB3t1-0" value="&amp;lt;footer&amp;gt;micah@peehikuru.net&amp;lt;/footer&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1">
                     <mxGeometry y="720" width="800" height="40" as="geometry"/>
@@ -824,7 +827,7 @@
                 </mxCell>
                 <mxCell id="LHVx17g_aWb8IJbkIW_g-39" value="Homepage" style="swimlane;startSize=40;horizontal=1;containerType=tree;" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1" collapsed="1">
                     <mxGeometry y="80" width="80" height="40" as="geometry">
-                        <mxRectangle width="800" height="760" as="alternateBounds"/>
+                        <mxRectangle y="80" width="800" height="760" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="LHVx17g_aWb8IJbkIW_g-40" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="LHVx17g_aWb8IJbkIW_g-39" source="LHVx17g_aWb8IJbkIW_g-41" target="LHVx17g_aWb8IJbkIW_g-78" edge="1">
@@ -985,24 +988,24 @@
                 <mxCell id="LHVx17g_aWb8IJbkIW_g-85" value="&amp;lt;img source&amp;gt;&lt;br&gt;Person being saved or big image of salvation word" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="LHVx17g_aWb8IJbkIW_g-80" vertex="1">
                     <mxGeometry x="450" y="120" width="400" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="jkSeIDveEC0GyRhlIzh9-0" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;strokeColor=#FFFFFF;" parent="hRdIfceUbxGLB_Sh5Jxk-1" source="jkSeIDveEC0GyRhlIzh9-2" target="jkSeIDveEC0GyRhlIzh9-3" edge="1">
+                <mxCell id="jkSeIDveEC0GyRhlIzh9-0" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;strokeColor=#FFFFFF;" parent="hRdIfceUbxGLB_Sh5Jxk-1" source="jkSeIDveEC0GyRhlIzh9-2" target="jkSeIDveEC0GyRhlIzh9-3" edge="1" visible="0">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="jkSeIDveEC0GyRhlIzh9-1" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="hRdIfceUbxGLB_Sh5Jxk-1" source="jkSeIDveEC0GyRhlIzh9-2" target="jkSeIDveEC0GyRhlIzh9-3" edge="1">
+                <mxCell id="jkSeIDveEC0GyRhlIzh9-1" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" parent="hRdIfceUbxGLB_Sh5Jxk-1" source="jkSeIDveEC0GyRhlIzh9-2" target="jkSeIDveEC0GyRhlIzh9-3" edge="1" visible="0">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="jkSeIDveEC0GyRhlIzh9-2" value="The SDA view on Salvation" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1">
+                <mxCell id="jkSeIDveEC0GyRhlIzh9-2" value="The SDA view on Salvation" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1" collapsed="1">
                     <mxGeometry x="40" y="200" width="720" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="jkSeIDveEC0GyRhlIzh9-3" value="Introduce the SDA aspect/view on Salvation" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1">
+                <mxCell id="jkSeIDveEC0GyRhlIzh9-3" value="Introduce the SDA aspect/view on Salvation" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1" visible="0">
                     <mxGeometry x="40" y="320" width="320" height="240" as="geometry"/>
                 </mxCell>
-                <mxCell id="jkSeIDveEC0GyRhlIzh9-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;strokeColor=#FFFFFF;" parent="hRdIfceUbxGLB_Sh5Jxk-1" source="jkSeIDveEC0GyRhlIzh9-2" target="jkSeIDveEC0GyRhlIzh9-5" edge="1">
+                <mxCell id="jkSeIDveEC0GyRhlIzh9-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;strokeColor=#FFFFFF;" parent="hRdIfceUbxGLB_Sh5Jxk-1" source="jkSeIDveEC0GyRhlIzh9-2" target="jkSeIDveEC0GyRhlIzh9-5" edge="1" visible="0">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="255" y="200" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="jkSeIDveEC0GyRhlIzh9-5" value="&amp;lt;img source&amp;gt;&lt;br&gt;Person being saved or big image of salvation word" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1">
+                <mxCell id="jkSeIDveEC0GyRhlIzh9-5" value="&amp;lt;img source&amp;gt;&lt;br&gt;Person being saved or big image of salvation word" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="hRdIfceUbxGLB_Sh5Jxk-1" vertex="1" visible="0">
                     <mxGeometry x="400" y="320" width="360" height="240" as="geometry"/>
                 </mxCell>
             </root>
