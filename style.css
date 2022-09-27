@@ -5,6 +5,7 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
+    "title title"
     "navigation navigation"
     "paragraph_one image_one"
     "footer footer";
@@ -16,7 +17,8 @@
      grid-template-columns: 1fr;
      grid-template-rows: auto;
      grid-template-areas: 
-     "nav"
+     "title"
+     "navigation"
      "image_one"
      "paragraph_one"
      "footer";
@@ -26,6 +28,10 @@
 .div {
 resize: both;
 overflow: auto;
+}
+
+.title {
+    grid-area: title;
 }
 
 .navigation {
@@ -47,6 +53,18 @@ overflow: auto;
 
 
 h1  {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2  {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3  {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h4  {
     font-family: 'Ubuntu', sans-serif;
 }
 
