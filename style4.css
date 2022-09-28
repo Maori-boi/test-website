@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "title title" 
+    "navigation navigation"
+    "header header"
+    "list_one list_two"
+    "paragraph_one paragraph_one"
+    "footer footer";
+    grid-gap: 4px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "title"
+     "nav"
+     "header"
+     "list_one"
+     "list_two"
+     "paragraph_one"
+     "footer";
+    }
+  }
+
+.div {
+resize: both;
+overflow: auto;
+
+}
+
+.title {
+    grid-area: title;
+}
+
+.navigation {
+    grid-area: navigation;
+}
+
+.header {
+    grid-area: header;
+}
+
+.list_one {
+    grid-area: list_one;
+}
+
+.list_two {
+    grid-area: list_two;
+}
+
+.paragraph_one {
+    grid-area: paragraph_one;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
+
+h1  {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2  {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3  {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer  {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p   {
+    font-family: 'Nunito', sans-serif;
+}
