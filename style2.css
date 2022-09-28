@@ -11,7 +11,12 @@
     "paragraph_one paragraph_one"
     "footer footer";
     grid-gap: 4px;
-
+    background-image: url(Images/931196.png); 
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 @media only screen and (max-width: 600px) {
     .container {
@@ -23,13 +28,19 @@
      "header"
      "paragraph_one"
      "footer";
+     background-image: url(Images/931196.png); 
+     background-repeat: no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
     }
   }
 
 .div {
 resize: both;
 overflow: auto;
-background-image: url(Images/931196.png);
+
 }
 
 .title {
