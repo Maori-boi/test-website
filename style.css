@@ -32,31 +32,48 @@ overflow: auto;
 
 .title {
     grid-area: title;
+    padding: 10px;
+    border: solid black;
+    text-align: center;
+    margin: 0;
 }
 
 .navigation {
     grid-area: navigation;
+    padding: 10px;
+    border: solid black;
+    text-align: center;
+    margin: 0;
 }
 
 .paragraph_one {
     grid-area: paragraph_one;
+    padding: 10px;
+    border: solid black;
+    text-align: center;
+    margin: 0;
 }
 
 .image_one {
     grid-area: image_one;
+    border: solid black;
 }
 
 .footer {
     grid-area: footer;
+    padding: 10px;
+    border: solid black;
+    text-align: center;
+    margin: 0;
 }
 
 
-
+/* names of fonts used for the following tags */
 h1  {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h2  {
+h2 {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -70,4 +87,28 @@ footer  {
 
 p   {
     font-family: 'Nunito', sans-serif;
+}
+
+a:visted {
+    color: blue ;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white ;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white ;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
