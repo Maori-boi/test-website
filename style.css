@@ -10,6 +10,7 @@
     "paragraph_one image_one"
     "footer footer";
     grid-gap: 4px;
+    grid-size: 760px, 600px
 
 }
 @media only screen and (max-width: 600px) {
@@ -34,16 +35,21 @@ overflow: auto;
     grid-area: title;
     padding: 10px;
     border: solid black;
+    font-size: 20px;
     text-align: center;
     margin: 0;
+    background-color: white;
 }
 
 .navigation {
     grid-area: navigation;
     padding: 10px;
-    border: solid black;
+    border: solid rgb(0, 0, 0);
+    font-size: 20px;
+    float: center;
     text-align: center;
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 .paragraph_one {
@@ -96,7 +102,7 @@ a:visted {
 }
 
 a:hover {
-    color: white ;
+    color: grey;
     background-color: transparent;
     text-decoration: underline;
 }
