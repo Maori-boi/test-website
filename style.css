@@ -32,9 +32,9 @@
 
 /* designated parts for the style of each of box */
 .div {
-resize: both;
-overflow: auto;
-background-color: solid rgb(0, 0, 0);
+    resize: both;
+    overflow: auto;
+    background-color: solid rgb(0, 0, 0);
 }
 
 /* designated parts for the style of each of box */

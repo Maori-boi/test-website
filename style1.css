@@ -3,7 +3,7 @@
 
 /* seperates the window size from the phone sized site*/
 @media only screen and (min-width: 600px) {
-.container {
+    .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
@@ -14,12 +14,12 @@
     "paragraph_one image_one"
     "footer footer";
     grid-gap: 4px;
+    }
   }
-}
 
 /* seperates the window size from the phone sized site*/
 @media only screen and (max-width: 600px) {
-    .container {
+     .container {
      grid-template-columns: 1fr;
      grid-template-rows: auto;
      grid-template-areas: 
@@ -32,12 +32,11 @@
     }
   }
 
-
 /* designated parts for the style of each of box */
 .div {
-resize: both;
-overflow: auto;
-background-color: solid rgb(0, 0, 0);
+    resize: both;
+    overflow: auto;
+    background-color: solid rgb(0, 0, 0);
 }
 
 /* designated parts for the style of each of box */
