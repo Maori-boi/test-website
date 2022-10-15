@@ -1,4 +1,7 @@
+/* imported url from google fonts which include the reference from where they come from */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+
+/* seperates the window size from the phone sized site*/
 @media only screen and (min-width: 600px) {
 .container {
     display: grid;
@@ -13,6 +16,8 @@
     grid-gap: 4px;
   }
 }
+
+/* seperates the window size from the phone sized site*/
 @media only screen and (max-width: 600px) {
     .container {
      grid-template-columns: 1fr;
@@ -27,37 +32,78 @@
     }
   }
 
+
+/* designated parts for the style of each of box */
 .div {
 resize: both;
 overflow: auto;
+background-color: solid rgb(0, 0, 0);
 }
 
+/* designated parts for the style of each of box */
 .title {
     grid-area: title;
+    padding: 10px;
+    border: solid rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
+/* designated parts for the style of each of box */
 .navigation {
     grid-area: navigation;
+    padding: 10px;
+    border: solid rgb(0, 0, 0);
+    font-size: 20px;
+    float: center;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
+/* designated parts for the style of each of box */
 .header {
     grid-area: header;
+    padding: 10px;
+    border: solid rgb(0, 0, 0);
+    font-size: 16px;
+    float: center;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
+/* designated parts for the style of each of box */
 .paragraph_one {
     grid-area: paragraph_one;
+    padding: 10px;
+    border: solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
+/* designated parts for the style of each of box */
 .image_one {
     grid-area: image_one;
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
+/* designated parts for the style of each of box */
 .footer {
     grid-area: footer;
+    padding: 10px;
+    border: solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 
-
+/* names of fonts used for the following tags as well as the size of the fonts taken care of */
 h1  {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -76,4 +122,30 @@ footer  {
 
 p   {
     font-family: 'Nunito', sans-serif;
+}
+
+/*describes the action taking place revolved around the links to the other pages*/
+a:visted {
+    color: rgb(0, 0, 255) ;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(128, 128, 128);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* determines the size of the image */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
