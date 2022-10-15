@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
-
-.container {
+@media only screen and (min-width: 600px) {
+  .container  {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
@@ -10,8 +10,7 @@
     "paragraph_one image_one"
     "footer footer";
     grid-gap: 4px;
-    grid-size: 760px, 600px
-
+  }
 }
 @media only screen and (max-width: 600px) {
     .container {
