@@ -42,7 +42,6 @@
     grid-area: title;
     padding: 10px;
     border: solid rgb(0, 0, 0);
-    font-size: 20px;
     text-align: center;
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -53,7 +52,6 @@
     grid-area: navigation;
     padding: 10px;
     border: solid rgb(0, 0, 0);
-    font-size: 20px;
     float: center;
     text-align: center;
     margin: 0;
