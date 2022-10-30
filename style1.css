@@ -17,7 +17,7 @@
 
 /* seperates the phone view from the windows view*/
 @media only screen and (max-width: 600px) {
-    .container {
+     .container {
      grid-template-columns: 1fr;
      grid-template-rows: auto;
      grid-template-areas: 
