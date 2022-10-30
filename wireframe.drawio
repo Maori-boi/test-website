@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="QZSjQHk_tSelzVDAI_jW" name="Homepage">
-        <mxGraphModel dx="2349" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="737" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="6" vertex="1">
-                    <mxGeometry x="600" y="200" width="120" height="200" as="geometry"/>
+                    <mxGeometry x="600" y="280" width="120" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="Conclusion&#10;Bibliography" style="swimlane;startSize=40;horizontal=1;containerType=tree;" parent="6" vertex="1" collapsed="1">
                     <mxGeometry x="720" y="80" width="80" height="40" as="geometry">
@@ -134,16 +134,16 @@
                     <mxGeometry y="720" width="800" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="6" vertex="1">
-                    <mxGeometry x="620" y="210" width="80" height="80" as="geometry"/>
+                    <mxGeometry x="620" y="290" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="" style="shape=or;whiteSpace=wrap;html=1;direction=north;" parent="6" vertex="1">
-                    <mxGeometry x="620" y="290" width="80" height="90" as="geometry"/>
+                    <mxGeometry x="620" y="370" width="80" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="Image of assessment taker" style="rounded=0;whiteSpace=wrap;html=1;" parent="6" vertex="1">
-                    <mxGeometry x="600" y="440" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="600" y="520" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="&lt;span&gt;Intro to computer assessment&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;direction=south;" parent="6" vertex="1">
-                    <mxGeometry x="80" y="200" width="400" height="360" as="geometry"/>
+                    <mxGeometry x="80" y="280" width="400" height="360" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Salvation" style="swimlane;startSize=40;horizontal=1;containerType=tree;" parent="6" vertex="1" collapsed="1">
                     <mxGeometry x="150" y="80" width="80" height="40" as="geometry">
@@ -630,11 +630,14 @@
                 <mxCell id="qXS8F99XIcUUhS5p2Z5g-159" value="&amp;lt;img source&amp;gt;&lt;br&gt;Person being saved or big image of salvation word" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="qXS8F99XIcUUhS5p2Z5g-154" vertex="1">
                     <mxGeometry x="450" y="120" width="400" height="250" as="geometry"/>
                 </mxCell>
+                <mxCell id="XWXsnV2_PoY2cGFEJhd9-74" value="Welcome to my website" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+                    <mxGeometry x="40" y="200" width="720" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="22rLGf4ezvLoKiy9EWGh" name="What is Salvation?">
-        <mxGraphModel dx="1644" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="737" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="4BNpjVPulicQghQdZ8iP-0"/>
                 <mxCell id="4BNpjVPulicQghQdZ8iP-1" parent="4BNpjVPulicQghQdZ8iP-0"/>
@@ -1270,7 +1273,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4weQIrXxOzsOD01AmVMX" name="Salvation - SDA">
-        <mxGraphModel dx="1644" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="737" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="hRdIfceUbxGLB_Sh5Jxk-0"/>
                 <mxCell id="hRdIfceUbxGLB_Sh5Jxk-1" parent="hRdIfceUbxGLB_Sh5Jxk-0"/>
@@ -1912,7 +1915,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="mEino7UyNpet61nwMcJU" name="Salvation - Islamic">
-        <mxGraphModel dx="1644" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="737" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="KjdXbPprliV1OIU42adY-0"/>
                 <mxCell id="KjdXbPprliV1OIU42adY-1" parent="KjdXbPprliV1OIU42adY-0"/>
@@ -2537,7 +2540,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="-28MnPzgzX67QaXBD7J1" name="Significance of Salvation">
-        <mxGraphModel dx="1644" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1656" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="JOKDO46eFW0im7fJX-P_-0"/>
                 <mxCell id="JOKDO46eFW0im7fJX-P_-1" parent="JOKDO46eFW0im7fJX-P_-0"/>
@@ -3165,7 +3168,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="bfkv8rt21082wAAn9_4N" name="Conclusion and Bibliography">
-        <mxGraphModel dx="1934" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1656" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="JuYe-vyxrDmeGas-Z_Wi-0"/>
                 <mxCell id="JuYe-vyxrDmeGas-Z_Wi-1" parent="JuYe-vyxrDmeGas-Z_Wi-0"/>
