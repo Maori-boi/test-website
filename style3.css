@@ -9,7 +9,7 @@
     grid-template-areas:
     "title title title title" 
     "navigation navigation navigation navigation"
-    "blankOne  header header blankTwo"
+    "blankOne header header blankTwo"
     "paragraph_one paragraph_one paragraph_one paragraph_one"
     "footer footer footer footer";
     grid-gap: 4px;

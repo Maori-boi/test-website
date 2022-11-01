@@ -9,11 +9,11 @@
     grid-template-areas:
     "title title title title" 
     "navigation navigation navigation navigation"
-    "header header"
-    "paragraph_one paragraph_one"
-    "list_one list_one"
-    "footer footer";
-    grid-gap: 50px;
+    "blankOne header header blankTwo"
+    "paragraph_one paragraph_one paragraph_one paragraph_one"
+    "blankThree list_one list_one blankFour"
+    "footer footer footer footer";
+    grid-gap: 4px;
 }
 
 /* seperates the window size from the phone sized site*/
@@ -102,6 +102,24 @@
     background-color: rgb(255, 255, 255);
 }
 
+/* creates blank spaces to center my website */
+.blankOne {
+    grid-area: blankOne;
+}
+
+.blankTwo {
+    grid-area: blankTwo;
+}
+
+.blankThree {
+    grid-area: blankThree;
+}
+
+.blankFour {
+    grid-area: blankFour;
+}
+
+/* names of fonts used for the following tags as well as the size of the fonts taken care of */
 h1  {
     font-family: 'Ubuntu', sans-serif;
 }

@@ -4,15 +4,15 @@
 /* seperates the window size from the phone sized site*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "title title" 
-    "navigation navigation"
-    "header header"
-    "list_one list_two"
-    "paragraph_one paragraph_one"
-    "footer footer";
+    "title title title title title" 
+    "navigation navigation navigation navigation navigation"
+    "blankOne header header header blankTwo"
+    "blankThree list_one blankFour list_two blankFive"
+    "blankSix paragraph_one paragraph_one paragraph_one blankSeven"
+    "footer footer footer footer footer";
     grid-gap: 4px;
 }
 
@@ -111,6 +111,35 @@
     text-align: center;
     margin: 0;
     background-color: rgb(255, 255, 255);
+}
+
+/* creates blank spaces to center my website */
+.blankOne {
+    grid-area: blankOne;
+}
+
+.blankTwo {
+    grid-area: blankTwo;
+}
+
+.blankThree {
+    grid-area: blankThree;
+}
+
+.blankFour {
+    grid-area: blankFour;
+}
+
+.blankFive {
+    grid-area: blankFive;
+}
+
+.blankSix {
+    grid-area: blankSix;
+}
+
+.blankSeven {
+    grid-area: blankSeven;
 }
 
 /* names of fonts used for the following tags as well as the size of the fonts taken care of */
