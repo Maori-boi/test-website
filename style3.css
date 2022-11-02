@@ -4,14 +4,14 @@
 /* seperates the window view from the phone view*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "title title title title" 
-    "navigation navigation navigation navigation"
-    "blankOne header header blankTwo"
-    "paragraph_one paragraph_one paragraph_one paragraph_one"
-    "footer footer footer footer";
+    "blankOne title title title blankTwo" 
+    "blankThree navigation navigation navigation blankFour"
+    "blankFive header header header blankSix"
+    "blankSeven paragraph_one paragraph_one paragraph_one blankEight"
+    "blankNine footer footer footer blankTen";
     grid-gap: 4px;
 }
 
@@ -109,6 +109,38 @@ body {
 
 .blankTwo {
     grid-area: blankTwo;
+}
+
+.blankThree {
+    grid-area: blankThree;
+}
+
+.blankFour {
+    grid-area: blankFour;
+}
+
+.blankFive {
+  grid-area: blankFive;
+}
+
+.blankSix {
+  grid-area: blankSix;
+}
+
+.blankSeven {
+  grid-area: blankSeven;
+}
+
+.blankEight {
+  grid-area: blankEight;
+}
+
+.blankNine {
+  grid-area: blankNine;
+}
+
+.blankTen {
+  grid-area: blankTen;
 }
 
 /* names of fonts used for the following tags as well as the size of the fonts taken care of */

@@ -7,12 +7,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "title title title title title" 
-    "navigation navigation navigation navigation navigation"
-    "blankOne header header header blankTwo"
-    "blankThree list_one blankFour list_two blankFive"
-    "blankSix paragraph_one paragraph_one paragraph_one blankSeven"
-    "footer footer footer footer footer";
+    "blankOne title title title blankTwo" 
+    "blankThree navigation navigation navigation blankFour"
+    "blankFive header header header blankSix"
+    "blankSeven list_one blankFour list_two blankEight"
+    "blankNine paragraph_one paragraph_one paragraph_one blankTen"
+    "blankEleven footer footer footer blankTwelve";
     grid-gap: 4px;
 }
 
@@ -131,15 +131,35 @@
 }
 
 .blankFive {
-    grid-area: blankFive;
+  grid-area: blankFive;
 }
 
 .blankSix {
-    grid-area: blankSix;
+  grid-area: blankSix;
 }
 
 .blankSeven {
-    grid-area: blankSeven;
+  grid-area: blankSeven;
+}
+
+.blankEight {
+  grid-area: blankEight;
+}
+
+.blankNine {
+  grid-area: blankNine;
+}
+
+.blankTen {
+  grid-area: blankTen;
+}
+
+.blankEleven {
+  grid-area: blankEleven;
+}
+
+.blankTwelve {
+  grid-area: blankTwelve;
 }
 
 /* names of fonts used for the following tags as well as the size of the fonts taken care of */
