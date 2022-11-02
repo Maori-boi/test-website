@@ -74,7 +74,7 @@
 /* designated parts for the style of each of box */
 .list_one {
     grid-area: list_one;
-    paddding: 10px;
+    padding: 10px;
     border: solid rgb(0, 0, 0);
     float: left;
     text-align: center;
@@ -85,7 +85,7 @@
 /* designated parts for the style of each of box */
 .list_two {
     grid-area: list_two;
-    paddding: 10px;
+    padding: 10px;
     border: solid rgb(0, 0, 0);
     float: left;
     text-align: center;
