@@ -4,15 +4,15 @@
 /* seperates the window size from the phone sized site*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "title title title title" 
-    "navigation navigation navigation navigation"
-    "blankOne header header blankTwo"
-    "paragraph_one paragraph_one paragraph_one paragraph_one"
-    "blankThree list_one list_one blankFour"
-    "footer footer footer footer";
+    "blankOne title title title blankTwo" 
+    "blankThree navigation navigation navigation blankFour"
+    "blankFive header header header blankSix"
+    "blankSeven button paragraph_one paragraph_one blankEight"
+    "blankNine list_one list_one list_one blankTen"
+    "blankEleven footer footer footer blankTwelve";
     grid-gap: 4px;
 }
 
@@ -72,6 +72,16 @@
 }
 
 /* designated parts for the style of each of box */
+.button {
+  grid-area: button;
+  padding: 5px 5px;
+  text-align: center;
+  display: block;
+  border: solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+/* designated parts for the style of each of box */
 .paragraph_one {
     grid-area: paragraph_one;
     padding: 10px;
@@ -117,6 +127,38 @@
 
 .blankFour {
     grid-area: blankFour;
+}
+
+.blankFive {
+  grid-area: blankFive;
+}
+
+.blankSix {
+  grid-area: blankSix;
+}
+
+.blankSeven {
+  grid-area: blankSeven;
+}
+
+.blankEight {
+  grid-area: blankEight;
+}
+
+.blankNine {
+  grid-area: blankNine;
+}
+
+.blankTen {
+  grid-area: blankTen;
+}
+
+.blankEleven {
+  grid-area: blankEleven;
+}
+
+.blankTwelve {
+  grid-area: blankTwelve;
 }
 
 /* names of fonts used for the following tags as well as the size of the fonts taken care of */
