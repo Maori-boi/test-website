@@ -4,15 +4,15 @@
 /* seperates the window size from the phone sized site*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "blankOne title title title blankTwo" 
-    "blankThree navigation navigation navigation blankFour"
-    "blankFive header header header blankSix"
-    "blankSeven list_one blankFour list_two blankEight"
-    "blankNine paragraph_one paragraph_one paragraph_one blankTen"
-    "blankEleven footer footer footer blankTwelve";
+    "blankOne title title title title blankTwo" 
+    "blankThree navigation navigation navigation navigation blankFour"
+    "blankFive header header header header blankSix"
+    "blankSeven list_one list_one list_two list_two blankEight"
+    "blankNine paragraph_one paragraph_one paragraph_one paragraph_one blankTen"
+    "blankEleven footer footer footer footer blankTwelve";
     grid-gap: 4px;
 }
 
@@ -74,7 +74,7 @@
 /* designated parts for the style of each of box */
 .list_one {
     grid-area: list_one;
-    padding: 10px;
+    padding: 62px 22px;
     border: solid rgb(0, 0, 0);
     float: left;
     text-align: center;
@@ -85,7 +85,7 @@
 /* designated parts for the style of each of box */
 .list_two {
     grid-area: list_two;
-    padding: 10px;
+    padding: 62px 22px;
     border: solid rgb(0, 0, 0);
     float: left;
     text-align: center;
@@ -96,7 +96,7 @@
 /* designated parts for the style of each of box */
 .paragraph_one {
     grid-area: paragraph_one;
-    padding: 10px;
+    padding: 42px 22px;
     border: solid rgb(0, 0, 0);
     text-align: center;
     margin: 0;

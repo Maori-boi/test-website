@@ -4,14 +4,14 @@
 /* seperates the window view from the phone view*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "blankOne title title title blankTwo" 
-    "blankThree navigation navigation navigation blankFour"
-    "blankFive header header header blankSix"
-    "blankSeven paragraph_one paragraph_one paragraph_one blankEight"
-    "blankNine footer footer footer blankTen";
+    "blankOne title title title title blankTwo" 
+    "blankThree navigation navigation navigation navigation blankFour"
+    "blankFive header header header header blankSix"
+    "blankSeven paragraph_one paragraph_one paragraph_one paragraph_one blankEight"
+    "blankNine footer footer footer footer blankTen";
     grid-gap: 4px;
 }
 
@@ -82,10 +82,7 @@ body {
 /* designated parts for the style of each of box */
 .paragraph_one {
     grid-area: paragraph_one;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 30px;
+    padding: 94.5px 22px;
     border: solid rgb(0, 0, 0);
     text-align: center;
     margin: 0;
