@@ -4,14 +4,14 @@
 /* seperates the window view from the phone view*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "blankOne title title title blankTwo" 
-    "blankThree navigation navigation navigation blankFour"
-    "blankFive header header header blankSix"
-    "blankSeven paragraph_one paragraph_one image_one blankEight"
-    "blankNine footer footer footer blankTen";
+    "blankOne title title title title blankTwo" 
+    "blankThree navigation navigation navigation navigation blankFour"
+    "blankFive header header header header blankSix"
+    "blankSeven paragraph_one paragraph_one image_hover image_hover blankEight"
+    "blankNine footer footer footer footer blankTen";
     grid-gap: 4px;
 }
 
@@ -24,7 +24,7 @@
      "title"
      "navigation"
      "header"
-     "image_one"
+     "image_hover"
      "paragraph_one"
      "footer";
     }
@@ -72,7 +72,7 @@
 /* designated parts for the style of each of box */
 .paragraph_one {
     grid-area: paragraph_one;
-    padding: 10px;
+    padding: 94.5px 22px;
     border: solid rgb(0, 0, 0);
     text-align: center;
     margin: 0;
@@ -80,10 +80,56 @@
 }
 
 /* designated parts for the style of each of box */
-.image_one {
-    grid-area: image_one;
-    border: solid rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+.image_hover h1 {
+    text-shadow: 0px -5px 5px rgb(128, 128, 128);
+}
+
+.image_hover {
+    grid-area: image_hover;
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image_hover img {
+    width: 100%;
+    height:70%;
+    display: block;
+    position: relative;
+}
+
+.layer {
+    background: transparent;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.layer:hover {
+    background: rgba(180, 174, 174, .6);
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 5;
 }
 
 /* designated parts for the style of each of box */
@@ -95,7 +141,6 @@
     margin: 0;
     background-color: rgb(255, 255, 255);
 }
-
 /* creates blank spaces to center my website */
 .blankOne {
     grid-area: blankOne;
