@@ -148,22 +148,30 @@ body{
 /* names of fonts used for the following tags as well as the size of the fonts taken care of */
 h1  {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 h2  {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 h3  {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 footer  {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 p   {
     font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /*describes the action taking place revolved around the links to the other pages*/
