@@ -4,7 +4,7 @@
 /* seperates the window size from the phone sized site*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr 1fr 1fr 1fr 1fr));
     grid-template-rows: auto;
     grid-template-areas:
     "blankOne title title title title blankTwo" 

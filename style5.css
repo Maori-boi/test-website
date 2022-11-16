@@ -4,13 +4,13 @@
 /* seperates the window size from the phone sized site*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr 1fr 1fr 1fr 1fr));
     grid-template-rows: auto;
     grid-template-areas:
     "blankOne title title title title blankTwo" 
     "blankThree navigation navigation navigation navigation blankFour"
     "blankFive header header header header blankSix"
-    "blankSeven paragraph_one paragraph_one paragraph_one paragraph_one blankEight"
+    "blankSeven paragraph_one paragraph_one paragraph_one button blankEight"
     "blankNine list_one list_one list_one list_one blankTen"
     "blankEleven footer footer footer footer blankTwelve";
     grid-gap: 4px;
@@ -25,6 +25,7 @@
      "title"
      "nav"
      "header"
+     "button"  
      "paragraph_one"
      "list_one"
      "footer";
@@ -34,7 +35,7 @@
 
 body {
   margin: 0;
-  margin-bottom: 25rem;
+  margin-bottom: 20rem;
 }
 
 /* designated parts for the style of each of box */
@@ -77,16 +78,6 @@ body {
 }
 
 /* designated parts for the style of each of box */
-.button {
-  grid-area: button;
-  padding: 5px 5px;
-  text-align: center;
-  display: block;
-  border: solid rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-}
-
-/* designated parts for the style of each of box */
 .paragraph_one {
     grid-area: paragraph_one;
     padding: 10px;
@@ -94,6 +85,15 @@ body {
     text-align: center;
     margin: 0;
     background-color: rgb(255, 255, 255);
+}
+
+.button {
+  grid-area: button;
+  padding: 10px;
+  border: solid rgb(0, 0, 0);
+  text-align: center;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 /* designated parts for the style of each of box */
