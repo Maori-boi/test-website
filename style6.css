@@ -10,9 +10,8 @@
     "blankOne title title title title blankTwo" 
     "blankThree navigation navigation navigation navigation blankFour"
     "blankFive header header header header blankSix"
-    "blankSeven paragraph_one paragraph_one button button blankEight"
-    "blankNine list_one list_one button button blankTen"
-    "blankEleven footer footer footer footer blankTwelve";
+    "blankSeven paragraph_one paragraph_one paragraph_one paragraph_one blankEight"
+    "blankNine footer footer footer footer blankTen";
     grid-gap: 4px;
 }
 
@@ -25,17 +24,14 @@
      "title"
      "nav"
      "header"
-     "button"  
      "paragraph_one"
-     "list_one"
      "footer";
-     grid-gap: 25px;
     }
   }
 
 body {
   margin: 0;
-  margin-bottom: 20rem;
+  margin-bottom: 25rem;
 }
 
 /* designated parts for the style of each of box */
@@ -80,28 +76,8 @@ body {
 /* designated parts for the style of each of box */
 .paragraph_one {
     grid-area: paragraph_one;
-    padding: 10px;
+    padding: 94.5px 22px;
     border: solid rgb(0, 0, 0);
-    text-align: center;
-    margin: 0;
-    background-color: rgb(255, 255, 255);
-}
-
-.button {
-  grid-area: button;
-  padding: 10px;
-  border: solid rgb(0, 0, 0);
-  text-align: center;
-  margin: 0;
-  background-color: rgb(255, 255, 255);
-}
-
-/* designated parts for the style of each of box */
-.list_one {
-    grid-area: list_one;
-    padding: 42px 22px;
-    border: solid rgb(0, 0, 0);
-    float: left;
     text-align: center;
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -158,14 +134,6 @@ body {
   grid-area: blankTen;
 }
 
-.blankEleven {
-  grid-area: blankEleven;
-}
-
-.blankTwelve {
-  grid-area: blankTwelve;
-}
-
 /* names of fonts used for the following tags as well as the size of the fonts taken care of */
 h1  {
     font-family: 'Ubuntu', sans-serif;
@@ -191,14 +159,8 @@ footer  {
 
 p   {
     font-family: 'Nunito', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
-}
-
-li {
-  font-family: 'Nunito', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 /*describes the action taking place revolved around the links to the other pages*/
